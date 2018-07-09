@@ -1,0 +1,408 @@
+body{
+    overflow-x: hidden;
+}
+header .navbar-brand{
+    display: contents;
+}
+
+.logo{
+    width: 6%;
+}
+.header_interaction{
+    margin: 0px auto;
+}
+i{
+    padding-left: 22px;
+    color: #7f7f7f;
+}
+.fa-folder{
+    color: black; 
+    padding-left: 34px;
+}
+.fa-newspaper{
+    padding-left: 40px;
+}
+.fa-arrow-up{
+    font-size: 15px;
+    color: white;
+}
+.btn_upload{
+    border-radius: 40px;
+    padding: 7px 20px;
+}
+nav{
+    border-bottom: 1px solid white;
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+  .portfolio-item {
+    margin-bottom: 30px;
+  }
+  
+  .pagination {
+    margin-bottom: 30px;
+  }
+
+  .img-fluid{
+    width: 35px !important;
+    border-radius: 50% !important;
+    margin-bottom: 10px !important;
+  }
+
+ .search-container {
+    float: right;
+    background: #f5f5f5;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  
+input[type=text] {
+    margin-top: 8px;
+    border: none;
+    background: #f5f5f5;
+  }
+
+
+  @media screen and (max-width: 991px) {
+.nav-item i{
+    display: none;
+}
+       }
+
+
+  @media screen and (max-width: 600px) {
+ .search-container {
+      float: none;
+      width: 410px;
+    }
+    .textContentSlider {
+        left: -200px;
+    }
+    .justin_abs h1{
+        font-size: 2.5rem;
+    }
+    .p_mountains{
+        margin-top: 10%;
+    }
+    
+}
+.textContentSlider{
+    position: absolute;
+    height: 350px;
+}
+
+.justin_abs{
+    display: inline-block;
+    position: relative;
+    z-index: 111;
+    color: white;
+    left: 80%;
+    margin-top: 30%;
+}
+h1{
+    font-size: 4rem;
+}
+.icon_abs{
+    display: inline-flex;
+    position: absolute;
+    z-index: 111;
+    color: white;
+    left: 80%;
+    margin-top: 20%;
+}
+.heart{
+    width: 50px;
+    height: 50px;
+    background: #fb6c6c;
+    border: 1px solid #fb6c6c;
+    border-radius: 50%;
+}
+.fa-heart{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    font-weight: bolder !important;
+    padding: 17px;
+}
+.heart_str{
+    color: #fb6c6c; 
+    margin: 14px;
+}
+.comment{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.fa-comment-dots{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    padding: 17px;
+}
+.comment_str{
+    margin: 14px;
+}
+.padding_reset{
+    padding: 0px;
+}
+
+.horizontal{ 
+    height: 80%;
+    margin: 0px auto;
+    width: 0px;
+    border: 1px solid  #ccc;
+    margin-top: 28%;
+    position: relative;
+    border-radius: 100%
+}
+.round{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 100%;
+    border: 1px solid #cccccc;
+    position: absolute;
+    top: -10px;
+    left: -10px; 
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dot{
+    width :7px;
+    height: 7px;
+    background: black;
+    border-radius: 100%;
+    margin: 5px auto;
+    box-sizing: border-box;
+}
+
+.h-100{
+    padding: 7px;
+    position: relative;
+}
+.top_right::after{
+    content: "";
+    border-top: 14px solid white;
+    border-left: 14px solid transparent;
+    position: absolute;
+    top: 45px;
+    right: -7px;
+    transform: rotate(45deg);
+}
+
+.top_left::after{
+    content: "";
+    border-bottom: 14px solid white;
+    border-right: 14px solid transparent;
+    position: absolute;
+    bottom: 45px;
+    left: -7px;
+    transform: rotate(45deg);
+}
+.td-post{
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+}
+.post{
+    border: 2px solid white;
+    border-radius: 21px;
+    width: max-content;
+    padding: 5px 20px;
+    color: white;
+    font-size: 10px;
+}
+.p_write{
+    color: white;
+    font-size: 22px;
+    margin-top: 26%;
+    margin-left: 8%;
+}
+.first_img{
+    color: white;
+    font-size: 22px;
+    margin-top: 9%;
+    margin-left: 6%;
+}
+
+
+
+/* Css - Sidebar */
+
+#user_clc{
+    position: absolute;
+    right: 20px;
+    top: 90px;
+}
+#user_clc img{
+    width: 80px !important;
+    height: 80px !important;
+    cursor: pointer;
+}
+
+#userE{
+    width: 250px;
+    background: rgba(10, 0, 4, 0.789);
+    position: absolute;
+    right: 0;
+    top: 83px;
+    height: 90%;
+    display: none;
+}
+#userE{
+    box-sizing: border-box;
+    padding: 20px 30px;
+}
+#userE .header {
+    position: relative;
+}
+#userE .header .left {
+    display: inline-block;
+    position: relative;
+    left: 0;
+}
+#userE .header .left >i:nth-child(1){
+    font-size: 22px;
+    color: white;
+}
+#userE .header .left >i:nth-child(2){
+    font-size: 15px;
+    color: green;
+    position: absolute;
+    top: 0;
+    left: 17px;
+}
+#userE .header .rightH{
+    display: inline-block;
+    position: absolute;
+    border-radius: 100%;
+    right: 0;
+    width: 23px;
+    cursor: pointer;
+    height: 23px;
+}
+#userE .header .rightH >i{
+    font-size: 22px;
+    color: white;
+    margin: 1px 0 0 3px;
+}
+#userE .textPhoto{
+    margin:30px 0; 
+}
+#userE .textPhoto .photo{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+#userE .textPhoto .photo img{
+    width: 100%;
+    
+}
+#userE .textPhoto .text{
+    text-align: center;
+    color: white;
+}
+#userE .textPhoto .text >p{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0 ;
+}
+#userE .textPhoto .text >span{
+    font-size: 16px;
+    opacity: 0.8;
+}
+#userE .linee{
+   height:2px;
+   background: white;
+    opacity: 0.7;
+}
+#userE .contribute{
+    margin: 30px 0;
+}
+#userE .contribute .header{
+    margin: 10px 0;
+    position: relative;
+}
+#userE .contribute .header .left{
+    position: relative;
+    left: 0;
+}
+#userE .contribute .header .left >i{
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 2px;
+}
+#userE .contribute .header .left >span{
+    color: white;
+    opacity: 0.8;
+}
+#userE .contribute .header .right{
+    position: absolute;
+    right:0;
+    top: 0;
+    display: contents;
+    width: 50px;
+}
+#userE .contribute .header .right .privE{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+#userE .contribute .header .right .privE:hover i{
+    opacity: 1;
+    transform: scale(1.2)
+ }
+#userE .contribute .header .right .privE >i{
+    color: white;
+    font-size: 13px;
+    margin: 5px 0 0 7px;
+    opacity: 0.7;
+    transition: all .5 ease;
+}
+#userE .contribute .header .right .nextE{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    cursor: pointer;
+}
+#userE .contribute .header .right .nextE:hover i{
+   opacity: 1;
+   transform: scale(1.2)
+}
+#userE .contribute .header .right .nextE >i{
+    color: white;
+    font-size: 13px;
+    margin: 5px 0 0 7px;
+    opacity: 0.7;
+    transition: all .5 ease;
+}
+#userE .contribute .content{
+    width: 100%;
+    margin-top: 20px;
+}
+#userE .contribute .content .itemE{
+    
+}
+#userE .contribute .content .itemE >img{
+    width: 60px;
+}

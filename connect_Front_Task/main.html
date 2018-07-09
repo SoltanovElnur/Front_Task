@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo.png" alt="#" class="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 header_interaction">
+                    <li class="nav-item ">
+                        <i class="fas fa-home"></i>
+                        <a class="nav-link" href="#">HOME
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-folder"></i>
+                        <a class="nav-link active" href="#">
+                            <strong>BROWSE</strong>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-newspaper"></i>
+                        <a class="nav-link " href="#">NEWSFEED</a>
+                    </li>
+                    <li class="nav-item">
+                        <i class="fas fa-user"></i>
+                        <a class="nav-link " href="#">USERS</a>
+                    </li>
+                </ul>
+                <button class="btn btn-sm btn-info btn_upload" type="submit">
+                    <strong>UPLOAD</strong>
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Slider -->
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+
+        <!-- Slide Content -->
+
+        <div class="textContentSlider">
+            <div class="justin_abs">
+                <h1>Hong Kong</h1>
+                <span>
+                    <img class="img-fluid" src="images/h1.jpg" alt="#">
+                    <span>by Justin Pervorse 25th Jan, 2014</span>
+                </span>
+            </div>
+            <div class="icon_abs">
+                <div class="heart">
+                    <i class="far fa-heart"></i>
+                </div>
+                <strong class="heart_str">640</strong>
+
+                <div class="comment">
+                    <i class="far fa-comment-dots"></i>
+                </div>
+                <strong class="comment_str">302</strong>
+            </div>
+        </div>
+
+        <!-- End Content -->
+
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <!-- Slide One -->
+            <div class="carousel-item active" style="background-image: url(images/img1.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <!-- Slide Two -->
+            <div class="carousel-item" style="background-image: url(images/img2.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <!-- Slide Three -->
+            <div class="carousel-item" style="background-image: url(images/img3.jpg)">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-- End Corusel -->
+
+
+    <!-- SideBar -->
+
+    <div id="user_clc" style="position: absolute">
+        <img src="images/index02.jpg" alt="#" class="img-fluid">
+    </div>
+
+
+    <div id="userE">
+        <div class="header">
+            <div class="left">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-check"></i>
+            </div>
+            <div class="rightH">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <div class="textPhoto">
+            <div class="photo">
+                <img src="images/index02.jpg" alt="">
+            </div>
+            <div class="text">
+                <p>Justin Pervorse</p>
+                <span>Illustrator and Photographer from Atlanta,GA</span>
+            </div>
+        </div>
+        <div class="linee"></div>
+        <div class="contribute">
+            <div class="header">
+                <div class="left">
+                    <i class="fas fa-plus-circle"></i>
+                    <span>Contributes</span>
+                </div>
+                <div class="right">
+                    <div class="privE">
+                        <i class="fas fa-chevron-left"></i>
+                    </div>
+                    <div class="nextE">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="itemE">
+                    <img src="images/item01.jpg" alt="">
+                    <img src="images/item02.jpg" alt="">
+                    <img src="images/item03.jpg" alt="">
+                    <img src="images/item04.jpg" alt="">
+                    <img src="images/item05.jpg" alt="">
+                    <img src="images/item06.jpg" alt="">
+                </div>
+                <div class="itemE">
+                    <img src="images/item07.jpg" alt="">
+                    <img src="images/item08.jpg" alt="">
+                    <img src="images/item09.jpg" alt="">
+                    <img src="images/item10.jpg" alt="">
+                    <img src="images/item11.jpg" alt="">
+                    <img src="images/item12.jpg" alt="">
+                </div>
+                <div class="itemE">
+                    <img src="images/item13.jpg" alt="">
+                    <img src="images/item14.jpg" alt="">
+                    <img src="images/item15.jpg" alt="">
+                    <img src="images/item16.jpg" alt="">
+                    <img src="images/item17.jpg" alt="">
+                    <img src="images/item18.jpg" alt="">
+                </div>
+                <div class="itemE">
+                    <img src="images/item19.jpg" alt="">
+                    <img src="images/item20.jpg" alt="">
+                    <img src="images/item21.jpg" alt="">
+                    <img src="images/item22.jpg" alt="">
+                    <img src="images/item23.jpg" alt="">
+                    <img src="images/item24.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- End Sidebar -->
+
+
+    <!-- Main Content -->
+
+    <section class="row">
+        <div class="col-lg-9" style="background: #eeeeef;">
+            <!-- Page Content -->
+            <div class="container">
+
+                <!-- Page Heading -->
+                <div class="row" style="padding: 10px; font-size: 20px;">
+                    <div class="col-lg-2">
+                        <i class="fas fa-camera" style="margin-right: 5px;"></i>
+                        524
+                    </div>
+                    <div class="col-lg-2">
+                        <i class="fas fa-video" style="margin-right: 5px"></i>
+                        102
+                    </div>
+                    <div class="col-lg-8" style="text-align: end;">
+                        <i class="fas fa-sort-down"></i>
+                        January, 2014
+                    </div>
+                </div>
+
+                <hr style="color: gainsboro; padding-bottom: 15px;">
+
+                <div class="row" style="margin-left: 20px;">
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-5 padding_reset">
+                                <div class="row">
+                                    <div class="col-lg-12 portfolio-item">
+                                        <div class="card h-100 top_right">
+
+                                            <div class="td-container" style="width: 100%; position: absolute">
+                                                <div class="td-pb-row" style="float: right; margin: 20px 40px;">
+                                                    <i class="fas fa-cog" style="color: white;"></i>
+                                                    <i class="fas fa-trash" style="color: white;"></i>
+                                                </div>
+                                                <div class="td-pb-row td-post">
+                                                    <span class="post">POST</span>
+                                                </div>
+                                                <div class="td-pb-row first_img">
+                                                    <p>Write a caption...</p>
+                                                </div>
+                                            </div>
+
+                                            <a href="#">
+                                                <img class="card-img-top" src="images/m1.jpg" alt="#">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 portfolio-item">
+                                        <div class="card h-100 top_right">
+
+                                            <div class="td-container" style="width: 100%; height: 100%; position: absolute">
+                                                <div class="td-pb-row" style="margin: 20px 40px;">
+                                                    <i class="far fa-heart" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="color: #fb6c6c; font-size: 15px; padding-right: 10px;">25</strong>
+                                                    <i class="far fa-comment-dots" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="font-size: 15px; color: white;">14</strong>
+                                                    <img src="images/h4.jpg" style="width: 35px !important;border-radius: 50% !important; float: right;" alt="#">
+                                                </div>
+                                                <div class="td-pb-row p_write">
+                                                    <p>Yosemite Mountains</p>
+                                                </div>
+                                            </div>
+
+                                            <a href="#">
+                                                <img class="card-img-top" src="images/m2.jpg" alt="#">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="horizontal">
+                                    <div class="round" data-toggle="tooltip" data-placement="bottom" title="24th Jan, 2014">
+                                        <div class="dot"></div>
+                                    </div>
+                                    <div class="round" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                                        <div class="dot"></div>
+                                    </div>
+                                    <div class="round" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                                        <div class="dot"></div>
+                                    </div>
+                                    <div class="round" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+                                        <div class="dot"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-5 padding_reset">
+                                <div class="row">
+                                    <div class="col-lg-12 portfolio-item">
+                                        <div class="card h-100 top_left">
+
+                                            <div class="td-container" style="width: 100%; height: 100%; position: absolute">
+                                                <div class="td-pb-row" style="margin: 20px 40px;">
+                                                    <i class="far fa-heart" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="color: white; font-size: 15px; padding-right: 10px;">99</strong>
+                                                    <i class="far fa-comment-dots" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="font-size: 15px; color: white;">43</strong>
+                                                    <img src="images/h8.jpg" style="width: 35px !important;border-radius: 50% !important; float: right;" alt="#">
+                                                </div>
+                                                <div class="td-pb-row p_write">
+                                                    <p>Double Exposure</p>
+                                                </div>
+                                            </div>
+
+                                            <a href="#">
+                                                <img class="card-img-top" src="images/m3.jpg" alt="#">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 portfolio-item">
+                                        <div class="card h-100 top_left">
+
+                                            <div class="td-container" style="width: 100%; height: 100%; position: absolute">
+                                                <div class="td-pb-row" style="margin: 20px 40px;">
+                                                    <i class="far fa-heart" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="color: #fb6c6c; font-size: 15px; padding-right: 10px;">44</strong>
+                                                    <i class="far fa-comment-dots" style="color: white; font-size: 15px; padding: 0px"></i>
+                                                    <strong style="font-size: 15px; color: white;">36</strong>
+                                                    <img src="images/h11.jpg" style="width: 35px !important;border-radius: 50% !important; float: right;" alt="#">
+                                                </div>
+                                                <div class="td-pb-row p_write">
+                                                    <p>Swedish Woods</p>
+                                                </div>
+                                            </div>
+                                            <a href="#">
+                                                <img class="card-img-top" src="images/m4.jpg" alt="#">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3" style="padding: 0px;">
+            <!-- Page Heading -->
+            <div style="padding: 0px 35px;">
+                <div class="row" style="text-align: center; margin:30px 0px;">
+                    <i class="fas fa-sort-down" style="padding-right: 10px;"></i>
+                    <span style="margin-right: 35px;">Landscape</span>
+                    <span class=" badge-pill badge-secondary">32</span>
+
+                </div>
+                <hr>
+                <!-- Project One -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h1.png" alt="#">
+                        </a>
+                        <span>Gustav Butlex</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h2.png" alt="#">
+                        </a>
+                        <span>Maykel Loomans</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h3.jpeg" alt="#">
+                        </a>
+                        <span>Tim van Damme</span>
+                    </div>
+                </div>
+                <!-- /.row -->
+
+                <hr>
+
+                <!-- Project Two -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h11.jpg" alt="#">
+                        </a>
+                        <span>Dann Petty</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h10.png" alt="#">
+                        </a>
+                        <span>Kerem Suer</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h9.jpg" alt="#">
+                        </a>
+                        <span>Eric Hoffman</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h8.jpg" alt="#">
+                        </a>
+                        <span>Eddie Labanovskiy</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h7.jpg" alt="#">
+                        </a>
+                        <span>Erika van der Bent</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h6.png" alt="#">
+                        </a>
+                        <span>Manouk Berg</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h5.png" alt="#">
+                        </a>
+                        <span>Jenny Shen</span>
+                    </div>
+                    <div class="col-md-12">
+                        <a href="#">
+                            <img class="img-fluid rounded mb-3 mb-md-0" alt="Avatar" src="images/h4.jpg" alt="#">
+                        </a>
+                        <span>DRaquel Parrado</span>
+                    </div>
+                </div>
+            </div>
+            <hr style="margin-bottom: 0px;">
+
+
+
+            <!-- Search Box -->
+            <div class="search-container">
+                <form action="#">
+                    <i class="fas fa-search" style="padding: 15px;"></i>
+                    <input type="text" placeholder="Search.." name="search">
+                    <i class="far fa-edit" style="margin-left: 60px"></i>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="js/total.js"></script>
+    <script src="js/sidebar.js"></script>
+</body>
+
+</html>
